@@ -1,0 +1,120 @@
+:root{
+    --black: #000000ff;
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+}
+.col{
+    padding: 0px;
+    margin: 0px;
+    width: 30px;
+    height: 12px;
+    background: white;
+}
+.altcol{
+    width: 2px;
+    height: 12px;
+    background-color: white;
+}
+#SearchGridCases,#SearchGridDeaths{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.row{
+    display: flex;
+}
+.dayClass{
+    padding: 0px;
+    margin: 0px;
+    width: 30px;
+    height: 12px;
+    text-align: center;
+    background-color: white;
+    font-size: 10px;
+}
+.textContent{
+    font-size: 10px;
+    text-align: center;
+}
+.textContentSmaller{
+    font-size: 8px;
+    text-align: center;
+}
+body,html{
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    padding:0px;
+    font-family: montserrat;
+    background-color: var(--platinum);
+}
+#titleOfSite p{
+    padding:0px;
+    margin: 0px;
+}
+#titleOfSite{
+    padding:16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--oxford-blue);
+    color: var(--platinum);
+    box-shadow: 2px 2px 2px rgb(98, 95, 95);
+}
+#titleOfSite p{
+    font-size: 42px;
+}
+.Units{
+    padding: 8px;
+    background-color: var(--orange-web);
+    box-shadow: 2px 2px 2px rgb(98, 95, 95);
+}
+
+.inputDateAndCountry{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+#parentInputDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--white);
+    padding: 4px;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 2px 2px 2px rgb(98, 95, 95);
+
+}
+.SearchingContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#startDate,#searchForCountry{
+    border:none;
+    font-family: montserrat;
+    font-size: large;
+}
+.SearchingContent,#searchForCountry{
+    width: 100%;
+
+
+}
+.SearchGraphMainDiv,.DeathGraphMainDiv{
+    padding:8px;
+
+}
+.searchContent{
+    font-size: 32px;
+    font-weight: 700;
+}
